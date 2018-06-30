@@ -37,7 +37,7 @@ header {
 	outline: none;
 }
 .header-button:hover {
-	transition: 0.2s;
+	transition: 0.5s;
 	box-shadow: 0 0 12px rgba(0,0,0,0.6);
 	background-color: #2f6adb;
 	color: #fff;
@@ -149,7 +149,7 @@ footer p {
 	cursor: pointer;
 }
 .footer-button:hover {
-	transition: 0.2s;
+	transition: 0.4s;
 	color: #fff;
 	background-color: #3a7dfd;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
