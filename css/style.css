@@ -225,6 +225,7 @@ footer p {
 		text-align: center;
 	}
 	.footer-cal-txt {
+		margin-left: 0px;
 		text-align:center;
 	}
 }
