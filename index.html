@@ -20,6 +20,7 @@
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -29,16 +30,16 @@
 			<div class="row">
 
 				<div class="col-lg-7">
-					<img class="header-img" src="img/m_img.png" alt="i_mac">
+					<img class="header-img wow fadeInLeftBig" data-wow-delay="0.0s" src="img/m_img.png" alt="i_mac">
 				</div>
 
 				<div class="col-lg-5">
 					<div class="header-col-lg5">
-						<p class="header-pre">Веб-разработчик</p>
-						<h1 class="header-tit">Отабек Рустамов</h1>
-						<p class="header-sub">Верстка на HTML/CSS<br/>Разработка сайтов под ключ </p>
-						<div class="header-button-s">
-							<a href="https://vk.com/ewfw2016"><button class="header-button">Связаться</button></a>
+						<p class="header-pre wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+						<h1 class="header-tit wow fadeInRightBig" data-wow-delay="0.2s">Отабек Рустамов</h1>
+						<p class="header-sub wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS<br/>Разработка сайтов под ключ </p>
+						<div class="header-button-s wow fadeInRightBig" data-wow-delay="0.4s">
+							<a href="https://vk.com/ewfw2016"><button class="header-button" >Связаться</button></a>
 							<small>*Это бесплатно</small>
 						</div>
 					</div>
@@ -51,7 +52,7 @@
 	<section>
 		<div class="portfolio">
 			<div class="container">
-				<div class="port-block">
+				<div class="port-block wow fadeIn" data-wow-delay="0.5s">
 					<h2 class="port-title">Портфолио</h2>
 					<p class="port-sub">Мои работы</p>
 					<div class="row">
@@ -89,20 +90,24 @@
 				<div class="col-md-4">
 					<div class="social-block">
 						<p>Подключайся:</p>
-						<a href="#"><img class="footer-img" src="img/logo/facebook-logo-button.png" alt="fb"></a>
-						<a href="#"><img class="footer-img" src="img/logo/vk-social-logotype.png" alt="vk"></a>
-						<a href="#"><img class="footer-img" src="img/logo/telegram-symbol.png" alt="tg"></a>
-						<a href="#"><img class="footer-img" src="img/logo/youtube-symbol.png" alt="yt"></a>
+						<a href="#"><img class="footer-img wow bounceInDown" data-wow-delay="0.2s" src="img/logo/facebook-logo-button.png" alt="fb"></a>
+						<a href="#"><img class="footer-img wow bounceInDown" data-wow-delay="0.3s" src="img/logo/vk-social-logotype.png" alt="vk"></a>
+						<a href="#"><img class="footer-img wow bounceInDown" data-wow-delay="0.1s" src="img/logo/telegram-symbol.png" alt="tg"></a>
+						<a href="#"><img class="footer-img wow bounceInDown" data-wow-delay="0.3s" src="img/logo/youtube-symbol.png" alt="yt"></a>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="footer-cal-txt">
 						<p class="footer-txt">Напишите мне:</p>
-						<a href="https://vk.com/ewfw2016"><button class="footer-button">Написать</button></a>
+						<a href="https://vk.com/ewfw2016"><button class="footer-button wow fadeInRight" data-wow-delay="0.4s">Написать</button></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
+	<script src="js/dist/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
