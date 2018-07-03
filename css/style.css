@@ -229,3 +229,29 @@ footer p {
 		text-align:center;
 	}
 }
+.footer-code-wifi {
+	border: 1px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	padding: 20px;
+	cursor: pointer;
+	font-family: 'Roboto';
+	font-size: 18px;
+	border-radius: 30px;
+	margin-top: 30px;
+	outline: none;
+}
+.footer-code-wifi:hover {
+	transition: 0.4s;
+	color: #fff;
+	background-color: #3a7dfd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	border: #3a7dfd;
+}
+@media (max-width: 768px) {
+	.footer-code-wifi {
+		font-size: 15px;
+		padding: 10px 15px;
+		font-weight: 700;
+	}
+}
